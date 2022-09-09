@@ -35,16 +35,14 @@ module.exports = (sequelize) => {
       allowNull: false,
     },
     capital: {
-      type: DataTypes.ARRAY(DataTypes.STRING),
+      type: DataTypes.STRING,
       allowNull: true,
     },
     subregion: {
       type: DataTypes.STRING,
-      allowNull: true,
     },
     area: {
       type: DataTypes.INTEGER,
-      allowNull: true,
     },
     population: {
       type: DataTypes.INTEGER,
